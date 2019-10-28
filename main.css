@@ -36,3 +36,33 @@ nav a:hover{
 	color: black;
 	transition:0.4s;
 }
+
+.footer a{
+    display: inline-flex;
+    width:auto;
+    padding: 1em 1em;
+	font-weight:bold;
+	color: grey;
+	text-decoration:none;
+	transition:0.4s;
+}
+
+footer a:hover{
+	color: rgb(182, 29, 29);
+    transition:0.3s;
+    text-decoration: none;
+}
+
+.footer-list {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #565656;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.footer-nav{
+    display: block;
+}
