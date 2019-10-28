@@ -1,10 +1,10 @@
-header::after{
+.header::after{
     content: '';
     display: table;
     clear: both;
 }
 
-header div {
+.header div {
     float: left;
 }
 
