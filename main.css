@@ -66,3 +66,14 @@ footer a:hover{
 .footer-nav{
     display: block;
 }
+
+.footerlogo img {
+    width: 106px;
+    margin-bottom: 20px;
+}
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
