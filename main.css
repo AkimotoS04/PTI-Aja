@@ -62,9 +62,42 @@ footer a:hover{
     text-transform: uppercase;
     text-align: left;
 }
+.footer-list2 {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #565656;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.footer-list3 {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #565656;
+    text-transform: uppercase;
+    text-align: right;
+}
 
 .footer-nav{
     display: block;
+}
+
+.footer1{
+    width: 35%;
+}
+
+.footer2{
+    width: 35%;
+    display: block;
+    float: right;
+}
+
+.footer3{
+    width: 30%;
 }
 
 .footerlogo img {
