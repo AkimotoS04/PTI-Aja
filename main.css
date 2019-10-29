@@ -175,3 +175,11 @@ header img {
     vertical-align: middle;
     margin-right: 2px;
 }
+
+.footer-bagian-kanan{
+    display: block;
+}
+
+.footer-bukalapak{
+    margin-left: 4px;
+}
