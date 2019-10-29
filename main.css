@@ -149,8 +149,12 @@ header img {
     width: 100px;
 }
 
-.container-besar{
+.footer-kiri{
     width: 50%;
+}
+
+.contact{
+    margin-left: 10px;
 }
 
 .contact img{
