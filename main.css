@@ -160,3 +160,11 @@ header img {
 .contact img{
     width: 4%;
 }
+.footer__network-icon {
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+}
