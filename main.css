@@ -19,24 +19,24 @@ nav ul {
 }
 
 nav {
-	padding:10px;
-	position:relative;
-	display:block;
-	text-align:center;
+ padding:10px;
+ position:relative;
+ display:block;
+ text-align:center;
     margin: 0;
 }
 
 nav a{
-	display: inline-flex;
+ display: inline-flex;
     width:auto;
     padding: 1em 1em;
-	font-weight:bold;
-	color: grey;
-	text-decoration:none;
+ font-weight:bold;
+ color: grey;
+ text-decoration:none;
 }
 
 nav a:hover{
-	color: orangered;
+ color: orangered;
 }
  
   .dropdown-content {
@@ -57,14 +57,14 @@ nav a:hover{
 .footer a{
     width:auto;
     padding: 1em 1em;
-	font-weight:bold;
-	color: grey;
-	text-decoration:none;
-	transition:0.4s;
+ font-weight:bold;
+ color: grey;
+ text-decoration:none;
+ transition:0.4s;
 }
 
 footer a:hover{
-	color: rgb(214, 135, 45);
+ color: rgb(214, 135, 45);
     transition:0.3s;
     text-decoration: none;
 }
@@ -80,7 +80,7 @@ footer a:hover{
     text-align: left;
 }
 .footer-list2 {
-    display: inline-block;
+    display: inline;
     float: right;
     font-size: 12px;
     font-weight: 700;
@@ -91,7 +91,7 @@ footer a:hover{
 }
 
 .footer-list3 {
-    display: inline-block;
+    display: inline;
     float: right;
     font-size: 12px;
     font-weight: 700;
@@ -160,6 +160,12 @@ header img {
 .contact img{
     width: 4%;
 }
+
+.footer-all-wrap{
+    margin: 10px;
+    background-color: rgba(214, 214, 214, 0.308);
+}
+
 .footer__network-icon {
     width: 20px;
     height: 20px;
