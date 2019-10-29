@@ -80,7 +80,7 @@ footer a:hover{
     text-align: left;
 }
 .footer-list2 {
-    display: inline-block;
+    display: inline;
     float: right;
     font-size: 12px;
     font-weight: 700;
@@ -91,7 +91,7 @@ footer a:hover{
 }
 
 .footer-list3 {
-    display: inline-block;
+    display: inline;
     float: right;
     font-size: 12px;
     font-weight: 700;
@@ -159,4 +159,9 @@ header img {
 
 .contact img{
     width: 4%;
+}
+
+.footer-all-wrap{
+    margin: 10px;
+    background-color: rgba(214, 214, 214, 0.308);
 }
