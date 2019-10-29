@@ -160,8 +160,18 @@ header img {
 .contact img{
     width: 4%;
 }
+<<<<<<< HEAD
 
 .footer-all-wrap{
     margin: 10px;
     background-color: rgba(214, 214, 214, 0.308);
+=======
+.footer__network-icon {
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+>>>>>>> 6d843144f8e035a925e490622abcea26a40cfdb6
 }
