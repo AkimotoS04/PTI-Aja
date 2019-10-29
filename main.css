@@ -64,7 +64,7 @@ nav a:hover{
 }
 
 footer a:hover{
-	color: rgb(182, 29, 29);
+	color: rgb(214, 135, 45);
     transition:0.3s;
     text-decoration: none;
 }
@@ -80,7 +80,7 @@ footer a:hover{
     text-align: left;
 }
 .footer-list2 {
-    display: inline;
+    display: inline-block;
     float: right;
     font-size: 12px;
     font-weight: 700;
@@ -91,7 +91,7 @@ footer a:hover{
 }
 
 .footer-list3 {
-    display: inline;
+    display: inline-block;
     float: right;
     font-size: 12px;
     font-weight: 700;
@@ -105,22 +105,9 @@ footer a:hover{
     display: block;
 }
 
-.footer1{
-    width: 35%;
-}
-
-.footer2{
-    width: 35%;
-    display: block;
-    float: right;
-}
-
-.footer3{
-    width: 30%;
-}
-
 .footerlogo img {
-    width: 106px;
+    width: 100px;
+    margin-left: 10px;
 }
 img {
     vertical-align: middle;
