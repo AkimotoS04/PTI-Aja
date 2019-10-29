@@ -178,8 +178,18 @@ header img {
 
 .footer-bagian-kanan{
     display: block;
+    text-decoration-color: grey;
 }
 
 .footer-bukalapak{
     margin-left: 4px;
+}
+
+.footer-kanan{
+    display: inline-block;
+    width: 50%;
+}
+
+.footer-kanan-judul{
+    display: inline-block;
 }
