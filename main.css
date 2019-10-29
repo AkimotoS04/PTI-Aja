@@ -71,6 +71,7 @@ footer a:hover{
 
 .footer-list {
     display: inline;
+    float: left;
     font-size: 12px;
     font-weight: 700;
     line-height: 30px;
@@ -86,16 +87,18 @@ footer a:hover{
     line-height: 30px;
     color: #565656;
     text-transform: uppercase;
-    text-align: right;
+    text-align: left;
 }
 
 .footer-list3 {
+    display: inline;
+    float: right;
     font-size: 12px;
     font-weight: 700;
     line-height: 30px;
     color: #565656;
     text-transform: uppercase;
-    text-align: right;
+    text-align: left;
 }
 
 .footer-nav{
