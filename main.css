@@ -150,7 +150,9 @@ header img {
 }
 
 .footer-kiri{
-    width: 50%;
+    width: 100%;
+    display: inline-block;
+    float: left;
 }
 
 .contact{
@@ -187,9 +189,18 @@ header img {
 
 .footer-kanan{
     display: inline-block;
-    width: 50%;
+    width: 100%;
+    float: right;
 }
 
-.footer-kanan-judul{
+.footer-kanan-1{
+    display: inline-block;
+}
+
+.footer-kanan-2{
+    display: inline-block;
+}
+
+.footer-kanan-3{
     display: inline-block;
 }
