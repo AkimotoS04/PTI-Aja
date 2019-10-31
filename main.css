@@ -12,58 +12,16 @@ header div {
 .footer a{
     width:auto;
     padding: 1em 1em;
- font-weight:bold;
- color: grey;
- text-decoration:none;
- transition:0.4s;
+    color: grey;
+    transition:0.4s;
 }
 
 footer a:hover{
- color: rgb(214, 135, 45);
+    color: rgb(214, 135, 45);
     transition:0.3s;
     text-decoration: none;
 }
 
-.footer-list {
-    display: inline;
-    float: left;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 30px;
-    color: #565656;
-    text-transform: uppercase;
-    text-align: left;
-}
-.footer-list2 {
-    display: inline;
-    float: right;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 30px;
-    color: #565656;
-    text-transform: uppercase;
-    text-align: left;
-}
-
-.footer-list3 {
-    display: inline;
-    float: right;
-    font-size: 12px;
-    font-weight: 700;
-    line-height: 30px;
-    color: #565656;
-    text-transform: uppercase;
-    text-align: left;
-}
-
-.footer-nav{
-    display: block;
-}
-
-.footerlogo img {
-    width: 100px;
-    margin-left: 10px;
-}
 img {
     vertical-align: middle;
 }
@@ -102,59 +60,4 @@ header img {
 .btn {
     background-color: orange;
     width: 100px;
-}
-
-.footer-kiri{
-    width: 50%;
-}
-
-.contact{
-    margin-left: 10px;
-}
-
-.contact img{
-    width: 4%;
-}
-
-
-.footer-all-wrap{
-    margin: 10px;
-    background-color: rgba(214, 214, 214, 0.308);
-}
-
-.footer__network-icon {
-    width: 20px;
-    height: 20px;
-    background-size: 20px 20px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 2px;
-}
-
-.footer-bagian-kanan{
-    display: block;
-    text-decoration-color: grey;
-}
-
-.footer-bukalapak{
-    margin-left: 4px;
-}
-
-.footer-kanan{
-    display: inline-block;
-    width: 100%;
-    float: right;
-}
-
-.footer-kanan-1{
-    display: inline-block;
-}
-
-.footer-kanan-2{
-    display: inline-block;
-    width: 50%;
-}
-
-.footer-kanan-judul{
-    display: inline-block;
 }
