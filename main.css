@@ -19,20 +19,24 @@ nav ul {
 }
 
 nav {
- padding:10px;
- position:relative;
- display:block;
- text-align:center;
+    padding:10px;
+    position:relative;
+    display:block;
+    text-align:center;
     margin: 0;
 }
 
+.dropdown-content {
+    background-color: white;
+}
+
 nav a{
- display: inline-flex;
-    width:auto;
-    padding: 1em 1em;
- font-weight:bold;
- color: grey;
- text-decoration:none;
+display: inline-flex;
+width:auto;
+padding: 1em 1em;
+font-weight:bold;
+color: grey;
+text-decoration:none;
 }
 
 nav a:hover{
@@ -53,6 +57,12 @@ nav a:hover{
   .dropdown:hover .dropdown-content {
       display: block;
     }
+
+.copyright {
+    text-align: center;
+    color: grey;
+    font-size: 1px;
+}
 
 .footer a{
     width:auto;
@@ -193,3 +203,4 @@ header img {
 .footer-kanan-judul{
     display: inline-block;
 }
+
