@@ -4,55 +4,10 @@ header::after{
     clear: both;
 }
 
-.center {
-    text-align: center;
-}
 
 header div {
     float: left;
 }
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-nav {
- padding:10px;
- position:relative;
- display:block;
- text-align:center;
-    margin: 0;
-}
-
-nav a{
- display: inline-flex;
-    width:auto;
-    padding: 1em 1em;
- font-weight:bold;
- color: grey;
- text-decoration:none;
-}
-
-nav a:hover{
- color: orangered;
-}
- 
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a:hover {
-      color: orangered;
-    }
-  
-  .dropdown:hover .dropdown-content {
-      display: block;
-    }
 
 .footer a{
     width:auto;
@@ -107,7 +62,7 @@ footer a:hover{
 
 .footerlogo img {
     width: 100px;
-    display: inline;
+    margin-left: 10px;
 }
 img {
     vertical-align: middle;
@@ -150,9 +105,7 @@ header img {
 }
 
 .footer-kiri{
-    width: 100%;
-    display: inline-block;
-    float: left;
+    width: 50%;
 }
 
 .contact{
@@ -188,7 +141,7 @@ header img {
 }
 
 .footer-kanan{
-    display: inline;
+    display: inline-block;
     width: 100%;
     float: right;
 }
@@ -199,8 +152,9 @@ header img {
 
 .footer-kanan-2{
     display: inline-block;
+    width: 50%;
 }
 
-.footer-kanan-3{
+.footer-kanan-judul{
     display: inline-block;
 }
