@@ -5,29 +5,26 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="main.css">
     </head>
-    <header class="col-12">
-        <div style="background-color: orangered">
+    <header>
+        <div class="container">
             <nav>
                 <div class="row">
-                    <div class="col-2"><img src="header.png" class="form-group"/></div>
-                    <div class="col-8">
+                    <div class="col"><img src="header.png" class="form-group"/></div>
                         <div class="form-group col-md">
                             <input id="exampleFormControlInput5" placeholder="berita apa yang ingin anda baca hari ini?" class="rounded-pill form-control form-control-underlined">
-                            </div>
+                        </div>
                         <div class="form-group com">
                             <button type="submit" class="btn rounded-pill btn-block shadow-sm">Cari</button>
                         </div>
-                    </div>
-                    <div class="col-2"><a href="#">MASUK</a></div>
+                    <div class="col"><a href="#">MASUK</a></div>
                  </div>
             </nav>
         </div>
-        <div class="container">
+        <div>
             <nav>
-                <ul style="font-size:10px;">
+                <ul>
                     <div><a href="#">HOME</a></div>
                     <div><a href="#">NEWS</a></div>
                     <div><a href="#">BISNIS</a></div>
@@ -55,16 +52,18 @@
                     </div>
                 </ul>
             </nav>
-            
-            <div class="row" style="background-color: orange;">
+            <div class="row py-2" style="background-color: orange;">
+                <!--Breaking box-->
                 <div class="col-1 col-md-3 col-lg-2 py-1 pr-md-0 mb-md-1">
-                    <div class="d-inline-block d-md-block text-center breaking-caret">
-                        <button class="rounded-pill btn-block shadow-sm d-none d-md-inline-block" style="background-color: white; color:orange; font-weight: bold">HEADLINE HARI INI</button>
+                    <div class="d-inline-block d-md-block text-center breaking-caret py-1 px-2">
+                        <button class="rounded-pill btn-block shadow-sm d-none d-md-inline-block" style="background-color: white; color:orange;">HEADLINE HARI INI</button>
                     </div>
                 </div>
+                <!--Breaking content-->
                 <div class="col-11 col-md-9 col-lg-10 pl-1 pl-md-2">
-                    <div class="breaking-box pt-2">
-                        <marquee behavior="scroll" direction="left">
+                    <div class="breaking-box pt-2 pb-1">
+                        <!--marque-->
+                        <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseleave="this.start();">
                           <a class="h6 font-weight-bold" href="" style="color: white;">Google Employees Protest Secret Work on Censored Search Engine for China</a>
                           <a class="h6 font-weight-bold" href="" style="color: white;">Investors Betting Against Tesla Made $1 Billion on Friday</a>
                           <a class="h6 font-weight-bold" href="" style="color: white;"> World cup 2050 will release in Dubay</a>
@@ -76,14 +75,7 @@
             </div>
     </header>
     <body>
-        <div class="container">
-            <div class="col-8">
-
-            </div>
-            <div class="col-4">
-                
-            </div>
-        </div>
+        
     </body>
     <footer>
         <div class="footer-all-wrap">
@@ -150,7 +142,7 @@
                 </li>
             </div>
         </div>
-        <div class="copyright">Copyright © 2019 <a href="liputan6.com">liputan6.com</a> KLY KapanLagi Youniverse All Rights Reserved</div>
+        <div>Copyright © 2019 liputan6.com KLY KapanLagi Youniverse All Rights Reserved</div>
     </div>    
     </footer>
 </html>
