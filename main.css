@@ -186,6 +186,19 @@ header img {
 }
 
 .footer-kanan{
+<<<<<<< HEAD
+=======
+    display: inline-block;
+    width: 100%;
+    float: right;
+}
+
+.footer-kanan-1{
+    display: inline-block;
+}
+
+.footer-kanan-2{
+>>>>>>> parent of f3dc2f3... balu
     display: inline-block;
     width: 50%;
 }
